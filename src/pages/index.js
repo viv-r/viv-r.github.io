@@ -27,7 +27,7 @@ const reddit = <ProjectCard
     (Team members:
       <a href='http://pf.lukewaninger.com/'>Luke Waninger</a>, <a href='https://github.com/moefasa/'>Mohammed Helal</a> and Me.) <br /> <br />
 
-    This app is a d3.js visualization of the results of running a topic modelling algorithm on the text dataset obtained from scraping the /r/jokes subreddit. <br />`}
+    This app is a d3.js visualization of the results of running a topic modelling algorithm on a text dataset obtained from scraping the /r/jokes subreddit. <br />`}
   links={[
     { icon: 'github', link: 'https://github.com/viv-r/topic-modeling-reddit', 'text': 'Source' },
     { icon: 'pdf', link: 'https://github.com/viv-r/topic-modeling-reddit/raw/master/docs/Final%20Paper.pdf', 'text': 'Project report' },
@@ -67,7 +67,7 @@ const viewability = <ProjectCard
   image={viewss}
   url='http://35.227.190.149:1317/'
   title='Tracking the visibility of ads on a webpage'
-  description={`This tool was developed as a POC in using the elementFromPoint API to keep track of DOM elements on a webpage.<br /> <br /> A large number of overlapping rectangles are randomly positioned on the webpage, and the proportion of area visible in the viewport is updated as the user scrolls/drags the elements around the page.`}
+  description={`This tool was developed as a POC in using the <a href='https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/elementFromPoint'>elementFromPoint API</a> to keep track of DOM elements on a webpage.<br /> <br /> A large number of overlapping rectangles are randomly positioned on the webpage, and the proportion of area visible in the viewport is updated as the user scrolls/drags the elements around the page.`}
   links={[
     { icon: 'github', link: 'https://github.com/viv-r/viewability_tracking', 'text': 'Source' },
   ]}
