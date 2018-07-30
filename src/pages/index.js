@@ -9,7 +9,7 @@ import viewss from '../images/view-ss.png'
 
 const trackml = <ProjectCard
   image={trackss}
-  url='/trackml'
+  url='http://35.227.190.149:3000/'
   title='Kaggle TrackML Dataset visualization'
   description={`This app was developed to explore the Kaggle TrackML competition dataset. The data consists of multiple events, where each event consists of a set of 3D points specifing the locations of particles generated in a collision at the Large Hadron Collider at CERN. <br/><br/>
   More information about the competition is available <a href='https://www.kaggle.com/c/trackml-particle-identification/data'>here</a>.`}
@@ -20,7 +20,7 @@ const trackml = <ProjectCard
 
 const reddit = <ProjectCard
   image={redditss}
-  url='/reddit'
+  url='http://35.227.190.149:3001/'
   title='LDA Topic modelling on reddit jokes'
   description={`
     This app was developed as a part of the HCDE 556 course at the University of Washington.
@@ -46,7 +46,7 @@ const kernelsvm = <ProjectCard
 
 const asset = <ProjectCard
   image={assetss}
-  url='/assetallocation'
+  url='http://35.227.190.149:8050/'
   title='Asset allocation analysis'
   description={`
 This app was developed as a part of the DATA 515 course at the University of Washington(Team members:
@@ -65,7 +65,7 @@ This a Dash application that allows the user to: <br />
 
 const viewability = <ProjectCard
   image={viewss}
-  url='/viewability'
+  url='http://35.227.190.149:1317/'
   title='Tracking the visibility of ads on a webpage'
   description={`This tool was developed as a POC in using the elementFromPoint API to keep track of DOM elements on a webpage.<br /> <br /> In this demo, a large number of overlapping rectangles are randomly positioned on the webpage, and the proportion of the area that is visible in the viewport is updated as the user scrolls around or drags the elements around the page.`}
   links={[
