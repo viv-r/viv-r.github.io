@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{215:function(n,e,t){"use strict";t.r(e);var r=t(1),a=t.n(r);e.default=function(){return a.a.createElement("iframe",{src:"http://35.227.190.149:8050/"})}}}]);
+//# sourceMappingURL=component---src-pages-assetallocation-js-4960a8700987290ff35b.js.map
