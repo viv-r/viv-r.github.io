@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{216:function(t,e,n){"use strict";n.r(e);var i=n(1),r=n.n(i);e.default=function(){return r.a.createElement("iframe",{style:{width:"100vh",height:"100vh"},src:"http://35.227.190.149:3001/"})}}}]);
+//# sourceMappingURL=component---src-pages-reddit-js-baddc55f62b425d2422f.js.map
