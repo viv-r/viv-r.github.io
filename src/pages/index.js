@@ -25,7 +25,7 @@ const reddit = <ProjectCard
   description={`
     This app was developed as a part of the HCDE 556 course at the University of Washington.
     (Team members:
-      <a href='http://pf.lukewaninger.com/'>Luke Waninger</a>, <a href='https://github.com/moefasa/'>Mohammed Helal</a> and Me. <br /> <br />
+      <a href='http://pf.lukewaninger.com/'>Luke Waninger</a>, <a href='https://github.com/moefasa/'>Mohammed Helal</a> and Me.) <br /> <br />
 
     This app is a d3.js visualization of the results of running a topic modelling algorithm on the text dataset obtained from scraping the /r/jokes subreddit. <br />`}
   links={[
@@ -49,8 +49,8 @@ const asset = <ProjectCard
   url='http://35.227.190.149:8050/'
   title='Asset allocation analysis'
   description={`
-This app was developed as a part of the DATA 515 course at the University of Washington(Team members:
-  <a href='https://github.com/whamsy'>Vamsy Alturi</a>, <a href='https://github.com/WillBishop12'>Will Bishop</a> and Me). <br /> <br />
+This app was developed as a part of the DATA 515 course at the University of Washington
+(Team members: <a href='https://github.com/whamsy'>Vamsy Alturi</a>, <a href='https://github.com/WillBishop12'>Will Bishop</a> and Me). <br /> <br />
 This is a Dash application that allows the user to: <br />
 
   - Compare asset portfolios composed of different stocks and bonds <br />
@@ -67,7 +67,7 @@ const viewability = <ProjectCard
   image={viewss}
   url='http://35.227.190.149:1317/'
   title='Tracking the visibility of ads on a webpage'
-  description={`This tool was developed as a POC in using the elementFromPoint API to keep track of DOM elements on a webpage.<br /> <br /> A large number of overlapping rectangles are randomly positioned on the webpage, and the proportion of the area visible in the viewport is updated as the user scrolls/drags the elements around the page.`}
+  description={`This tool was developed as a POC in using the elementFromPoint API to keep track of DOM elements on a webpage.<br /> <br /> A large number of overlapping rectangles are randomly positioned on the webpage, and the proportion of area visible in the viewport is updated as the user scrolls/drags the elements around the page.`}
   links={[
     { icon: 'github', link: 'https://github.com/viv-r/viewability_tracking', 'text': 'Source' },
   ]}

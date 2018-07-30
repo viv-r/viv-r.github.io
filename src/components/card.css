@@ -59,11 +59,12 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .linkedin {
-    scale: 0.6;
+    font-size: 18px;
     color: white;
+    padding-top: 0;
 }
 
 @media (min-width: 500px) {

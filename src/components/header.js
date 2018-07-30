@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h2 style={{ margin: 0, font: 'monospace' }}>
+      <h2 style={{ margin: 0, }}>
         <a
           href="https://www.github.com/viv-r/"
           style={{
@@ -32,7 +32,6 @@ const Header = ({ siteTitle }) => (
       </h2>
       <a href='https://www.linkedin.com/in/vivrdy/' className='button linkedin'>
         VIVEK PAGADALA <br />
-        {/* <img className='icon' src={linkedin_icon} /> */}
       </a>
     </div>
   </div >
