@@ -11,7 +11,7 @@ const trackml = <ProjectCard
   image={trackss}
   url='http://35.227.190.149:3000/'
   title='Kaggle TrackML Dataset visualization'
-  description={`This app was developed to explore the Kaggle TrackML competition dataset. The data consists of multiple events, where each event consists of a set of 3D points specifing the locations of particles generated in a collision at the Large Hadron Collider at CERN. <br/><br/>
+  description={`This app was developed to explore the Kaggle TrackML competition dataset. The data consists of multiple events, where each event consists of a set of 3D points specifying the locations of particles generated in a collision at the Large Hadron Collider at CERN. <br/><br/>
   More information about the competition is available <a href='https://www.kaggle.com/c/trackml-particle-identification/data'>here</a>.`}
   links={[
     { icon: 'github', link: 'https://github.com/viv-r/kaggle-trackml-event-viewer', 'text': 'Source' },
@@ -21,7 +21,7 @@ const trackml = <ProjectCard
 const reddit = <ProjectCard
   image={redditss}
   url='http://35.227.190.149:3001/'
-  title='LDA Topic modelling on reddit jokes'
+  title='LDA Topic modelling on Reddit jokes'
   description={`
     This app was developed as a part of the HCDE 556 course at the University of Washington.
     (Team members:
@@ -51,7 +51,7 @@ const asset = <ProjectCard
   description={`
 This app was developed as a part of the DATA 515 course at the University of Washington(Team members:
   <a href='https://github.com/whamsy'>Vamsy Alturi</a>, <a href='https://github.com/WillBishop12'>Will Bishop</a> and Me). <br /> <br />
-This a Dash application that allows the user to: <br />
+This is a Dash application that allows the user to: <br />
 
   - Compare asset portfolios composed of different stocks and bonds <br />
     - Compare quantitative measures of risk <br />
@@ -67,7 +67,7 @@ const viewability = <ProjectCard
   image={viewss}
   url='http://35.227.190.149:1317/'
   title='Tracking the visibility of ads on a webpage'
-  description={`This tool was developed as a POC in using the elementFromPoint API to keep track of DOM elements on a webpage.<br /> <br /> In this demo, a large number of overlapping rectangles are randomly positioned on the webpage, and the proportion of the area that is visible in the viewport is updated as the user scrolls around or drags the elements around the page.`}
+  description={`This tool was developed as a POC in using the elementFromPoint API to keep track of DOM elements on a webpage.<br /> <br /> A large number of overlapping rectangles are randomly positioned on the webpage, and the proportion of the area visible in the viewport is updated as the user scrolls/drags the elements around the page.`}
   links={[
     { icon: 'github', link: 'https://github.com/viv-r/viewability_tracking', 'text': 'Source' },
   ]}
