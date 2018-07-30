@@ -10,7 +10,7 @@ import viewss from '../images/view-ss.png'
 const trackml = <ProjectCard
   image={trackss}
   url='http://35.227.190.149:3000/'
-  title='Kaggle TrackML Dataset visualization'
+  title='Kaggle TrackML dataset visualization'
   description={`This app was developed to explore the Kaggle TrackML competition dataset. The data consists of multiple events, where each event consists of a set of 3D points specifying the locations of particles generated in a collision at the Large Hadron Collider at CERN. <br/><br/>
   More information about the competition is available <a href='https://www.kaggle.com/c/trackml-particle-identification/data'>here</a>.`}
   links={[
@@ -21,7 +21,7 @@ const trackml = <ProjectCard
 const reddit = <ProjectCard
   image={redditss}
   url='http://35.227.190.149:3001/'
-  title='LDA Topic modelling on Reddit jokes'
+  title='LDA topic modelling on Reddit text'
   description={`
     This app was developed as a part of the HCDE 556 course at the University of Washington.
     (Team members:
@@ -36,7 +36,7 @@ const reddit = <ProjectCard
 const kernelsvm = <ProjectCard
   image={DefaultImage}
   url='https://github.com/viv-r/kernel-svm-implementation/blob/master/digits_dataset_demo.ipynb'
-  title='Kernel SVM Implementation'
+  title='Kernel SVM implementation'
   description={`A library implementing the Kernel SVM algorithm using the huber-hinge loss function. The rbf, linear and polynomial kernels are currently implemented and multi-class classification is handled using the one-vs-one strategy.
   `}
   links={[
