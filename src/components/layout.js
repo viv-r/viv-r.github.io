@@ -9,10 +9,10 @@ import './layout.css'
 const Layout = ({ children }) => (
   <>
     <Helmet
-      title={'Project portfolio'}
+      title={'Vivek Pagadala'}
       meta={[
         { name: 'description', content: 'Project portfolio' },
-        { name: 'keywords', content: '' },
+        { name: 'keywords', content: 'data science machine learning visualization' },
       ]}
     />
     <Header siteTitle={'Project portfolio'} />
